@@ -1,0 +1,8 @@
+appName: vault-app
+replicas: 1
+
+namespace: vault-app-dev
+
+image: 339712841242.dkr.ecr.eu-west-2.amazonaws.com/vault-repo/vault-app:latest
+
+containerPort: 8200
